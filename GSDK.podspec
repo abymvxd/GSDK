@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "GSDK"
-  spec.version      = "0.0.7"
+  spec.version      = "0.0.8"
   spec.summary      = "iOS GSDK."
 
   # This description is used to generate tags and improve search results.
@@ -118,7 +118,7 @@ Pod::Spec.new do |spec|
   #
 
   #spec.framework  = "libGSDK"
-  spec.vendored_frameworks = 'GSDK.framework'
+  #spec.vendored_frameworks = 'GSDK.framework'
    spec.frameworks = 'UIKit','Foundation'
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
@@ -132,7 +132,7 @@ Pod::Spec.new do |spec|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  # spec.requires_arc = true
+  spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
