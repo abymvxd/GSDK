@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
 这是一个基于佳博打印系列的iOS打印SDK
                    DESC
 
-  spec.homepage     = "https://gitee.com/besthandset/gsdk.git"
+  spec.homepage     = "https://github.com/abymvxd/GSDK"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://gitee.com/besthandset/gsdk.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/abymvxd/GSDK.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -118,7 +118,7 @@ Pod::Spec.new do |spec|
   #
 
   #spec.framework  = "libGSDK"
-  #spec.vendored_frameworks = 'GSDK.framework'
+  spec.vendored_frameworks = 'GSDK.framework'
    spec.frameworks = 'UIKit','Foundation'
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
